@@ -1,0 +1,254 @@
+* {
+    font-family: 'Gotham';
+}
+
+
+.navbar-brand{
+    border: 2px solid #0F4C75;
+    color: #0F4C75;
+    padding: 5px 10px;
+}
+
+
+.nav-item {
+    margin: 0 10px;
+}
+
+
+.service p{
+    color: #0F4C75;
+}
+.service{
+    padding: 50px 0;
+    background-color: #EBECF0;
+}
+.service h3{
+    color: #0F4C75;
+    font-weight: bold;
+    margin: 40px 0;
+}
+.row-service{
+    margin:100px 0 180px 0;
+    padding: 10px 0;
+}
+.tools ul li{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+.tools img{
+    width: 82px;
+    height: 82px;
+}
+.wave{
+    margin-top: -180px;
+}
+
+
+
+
+
+/*FOOTER*/
+
+footer {
+    background: #042942;
+    /* background: -webkit-linear-gradient(59deg, #EEB10B, rgb(184, 136, 6));
+    background: linear-gradient(59deg, #EEB10B, rgb(184, 136, 6)); */
+    color: white;
+    margin-top: -5px;
+}
+.footer{
+    text-align: right;
+}
+
+footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+}
+
+footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+}
+
+.copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+    padding-top: 2em;
+    color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+    color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.social-network a {
+    background-color: #F9F9F9;
+}
+  
+/* Neomorphism */
+
+  .card {
+    padding: 65px 10px;
+    text-align: center;
+  }
+  
+  .card {
+    border: 0;
+    outline: 0;
+    /* font-size: 16px;
+    border-radius: 320px;
+    padding: 16px; */
+    background-color: #EBECF0;
+    text-shadow: 1px 1px 0 #FFF;
+  }
+  
+  /* label {
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+  } */
+  
+  /* input {
+    margin-right: 8px;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  input:focus {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+  } */
+  
+  .card {
+    color: #0F4C75;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .card:hover {
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+  }
+  .card:active {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #fff;
+  }
+  
+  /* button .icon {
+    margin-right: 8px;
+  }
+  button.unit {
+    border-radius: 8px;
+    line-height: 0;
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    font-size: 19.2px;
+  }
+  button.unit .icon {
+    margin-right: 0;
+  }
+  button.red {
+    display: block;
+    width: 100%;
+    color: #AE1100;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .input-group label {
+    margin: 0;
+    flex: 1;
+  } */
+  
+  /*# sourceMappingURL=refneomorphism.css.map */
+  
